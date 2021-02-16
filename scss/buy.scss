@@ -1,0 +1,77 @@
+.buy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buy_title{
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: center;
+    color: #445161;
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+.buy_card{
+    background: #445161;
+    width: 300px;
+    position: relative;
+    padding: 16px;
+    align-self: flex-end;
+}
+
+.buy_card_title{
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.buy_card_price{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 0.75;
+    color: #445162;
+    background: #fff;
+    border: 1px solid;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0px;
+    text-align: center;
+    padding: 18px 0;
+}
+.buy_card_list{
+    margin: 80px 0 0 0;
+}
+.buy_card_list_item{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.71;
+    color: #ffffff;
+}
+.buy_btn{
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #445161;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #445161;
+    box-sizing: border-box;
+}
+
+.buy_btn:hover{
+    background: #ccc;
+}
+
+.buy_btn:active{
+    background: #ccc;
+    border: 1px solid #ccc;
+}

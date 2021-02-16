@@ -1,0 +1,198 @@
+.footer_top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #445161;
+  }
+  .footer_top_title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #ffffff;
+    margin: 0 0 30px 0;
+  }
+.footer_top_form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 46px;
+    width: 500px;
+  }
+  .footer_input{
+    width: 100%;
+    padding: 14px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #445161;
+    outline: none;
+    resize: none;
+}
+.footer_input::placeholder{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #445162;
+    font-family: Arial;
+}
+
+.footer_top_btn{
+    align-self: center;
+    padding: 10px 48px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #445162;
+    border: 1px solid #445161;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+}
+.footer_top_btn:hover{
+    background: #ccc;
+}
+
+.footer_top_btn:active{
+    background: #ccc;
+    border: 1px solid #ccc;
+}
+.footer_top_contscts{
+margin: 0;
+padding-left: 35px;
+}
+.footer_top_contscts_item{
+margin-bottom: 30px;
+position: relative;
+list-style-type: none;
+}
+.footer_top_contscts_item_link:hover{
+    color: #89a6c9;
+}
+
+.footer_top_contscts_item:nth-child(1)::before{
+display: block;
+width: 26px;    
+height: 26px;
+content: "";
+background-image: url(../img/icon_skype.png);
+position: absolute;
+left: -35px;
+background-repeat: no-repeat;
+}
+.footer_top_contscts_item:nth-child(2)::before{
+display: block;
+width: 26px;    
+height: 26px;
+content: "";
+background-image: url(../img/icon_icq.png);
+position: absolute;
+left: -35px;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.footer_top_contscts_item:nth-child(3)::before{
+display: block;
+width: 26px;    
+height: 26px;
+content: "";
+background-image: url(../img/icon_email.png);
+position: absolute;
+left: -35px;
+background-repeat: no-repeat;
+}
+.footer_top_contscts_item:nth-child(4)::before{
+display: block;
+width: 26px;    
+height: 26px;
+content: "";
+background-image: url(../img/icon_phone.png);
+position: absolute;
+left: -35px;
+background-repeat: no-repeat;
+}
+.footer_top_contscts_item_link{
+font-size: 16px;
+line-height: 1.5;
+color: #ffffff;
+text-decoration: none;
+}
+.footer_top_web{
+    display: flex;
+}
+.footer_top_web_link{
+    margin-right: 20px;
+    color: #ffffff;
+}
+.footer_top_web_link:hover{
+    color: #ffffff;
+    color: #89a6c9;
+}
+.fa-li{
+    color: #ffffff;
+}
+.fa-2x {
+    font-size: 26px;
+}
+// .footer_top_web_link:nth-of-type(1){
+//     background: url(../img/twitter_icon.png);
+//     display: block;
+//     width: 42px;
+//     height: 42px;
+//     background-repeat: no-repeat;
+// }
+// .footer_top_web_link:nth-of-type(1):hover{
+//     background: url(../img/twitter_hover.png);
+// }
+// .footer_top_web_link:nth-of-type(2){
+//     background: url(../img/facebook_icon.png);
+//     display: block;
+//     width: 42px;
+//     height: 42px;
+//     background-repeat: no-repeat;
+// }
+// .footer_top_web_link:nth-of-type(2):hover{
+//     background: url(../img/facebook_hover.png);
+// }
+// .footer_top_web_link:nth-of-type(3){
+//     background: url(../img/in_icon.png);
+//     display: block;
+//     width: 42px;
+//     height: 42px;
+//     background-repeat: no-repeat;
+// }
+// .footer_top_web_link:nth-of-type(3):hover{
+//     background: url(../img/in_hover.png);
+// }
+// .footer_top_web_link:nth-of-type(4){
+//     background: url(../img/google_icon.png);
+//     display: block;
+//     width: 42px;
+//     height: 42px;
+//     background-repeat: no-repeat;
+// }
+// .footer_top_web_link:nth-of-type(4):hover{
+//     background: url(../img/google_hover.png);
+// }
+
+// .footer_top_web_link:nth-of-type(5){
+//     background: url(../img/youtube_icon.png);
+//     display: block;
+//     width: 42px;
+//     height: 42px;
+//     background-repeat: no-repeat;
+// }
+// .footer_top_web_link:nth-of-type(5):hover{
+//     background: url(../img/youtube_hover.png);
+// }
+.footer_bottom{
+    background-color: #f5f5f5;
+}
+.footer_bottom_copy{
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.3px;
+    color: #445162;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
